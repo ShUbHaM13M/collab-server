@@ -1,0 +1,29 @@
+{
+  "name": "collab-server",
+  "version": "1.0.0",
+  "description": "collab project management server",
+  "main": "script.js",
+  "scripts": {
+    "start": "npm script.js",
+    "dev": "nodemon script.js"
+  },
+  "keywords": [
+    "collab",
+    "project",
+    "management"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.2",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
